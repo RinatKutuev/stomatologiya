@@ -116,6 +116,7 @@ body {
 .button.button-border {
   border: 1px solid var(--main-blue);
   color: var(--main-blue);
+  background: transparent;
 }
 
 .button.button-border:hover {
@@ -1003,5 +1004,78 @@ body {
 
 .more-section .section-title {
   text-align: left;
+}
+
+.modal {
+  width: 495px;
+  padding: 40px !important;
+  border-radius: 20px;
+}
+
+.modal-title {
+  font-size: 60px;
+  line-height: 140%;
+  font-family: "Jost", sans-serif;
+  font-weight: 600;
+  color: var(--main-accent);
+  margin-bottom: 15px;
+}
+
+.order-info {
+  letter-spacing: 1px;
+  margin-bottom: 20px;
+}
+
+.order-info span {
+  display: block;
+  color: #8896A7;
+  margin-bottom: 10px;
+}
+
+.order-form h3 {
+  color: #8896A7;
+  font-size: 20px;
+  line-height: 140%;
+  font-family: "Jost", sans-serif;
+  font-weight: normal;
+  margin: 0 0 10px;
+}
+
+.order-form .input {
+  border-color: rgba(62, 124, 177, 0.2);
+  color: #8896A7;
+}
+
+.order-form .input::placeholder {
+  color: #8896A7;
+}
+
+.order-form__row {
+  margin-bottom: 10px;
+}
+
+.order-form__btn {
+  margin-top: 25px;
+}
+
+.order-form__btn .button {
+  width: 100%;
+}
+
+.order-cancel {
+  display: flex;
+  justify-content: center;
+  margin-top: 15px;
+}
+
+.order-cancel a {
+  color: #8896A7;
+  text-decoration: none;
+  font-family: "Jost", sans-serif;
+  font-size: 20px;
+}
+
+.order-cancel a:hover {
+  color: var(--main-blue);
 }
 /*# sourceMappingURL=style.css.map */

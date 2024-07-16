@@ -371,6 +371,10 @@
             }
         }
     }
+
+    .modal-title{
+        font-size: 45px;
+    }
 }
 
 @media(max-width:680px){
@@ -637,6 +641,14 @@
     .product-title{
         font-size: 30px;
         margin-bottom: 15px;
+    }
+
+    .modal{
+        padding: 30px 20px !important;
+    }
+
+    .modal-title{
+        font-size: 30px;
     }
     
 }

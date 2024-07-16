@@ -7,6 +7,7 @@
 	<title>Document</title>
 	<link rel="stylesheet" href="css/normalize.css">
 	<link rel="stylesheet" href="css/swiper-bundle.min.css">
+	<link rel="stylesheet" href="css/jquery.fancybox.min.css">
 	<link rel="stylesheet" href="css/style.css">
 	<link rel="stylesheet" href="css/media.css">
 
@@ -196,13 +197,13 @@
 							<div class="selectbox">
 								<select name="" id="" class="select">
 									<option value="0">«Moon» микровелюр</option>
-									<option value="0">«Moon» микровелюр 2</option>
-									<option value="0">«Moon» микровелюр 3</option>
+									<option value="1">«Граф» искусственная замша</option>
+									<option value="2">«Moon» микровелюр 3</option>
 								</select>
 							</div>
 						</div>
 						<div class="product-btn">
-							<a href="#" class="button button-border">Заказать </a>
+							<a href="#modal" data-fancybox class="button button-border">Заказать </a>
 						</div>
 					</div>
 				</div>
@@ -343,9 +344,46 @@
 			</div>
 		</footer>
 	</div>
+
+	<div style="display: none;">
+		<div id="modal" class="modal">
+			<div class="modal-title">
+				Ваш заказ
+			</div>
+			<div class="order-info">
+				<span>Товар</span>
+				Пуф-кровать №5
+			</div>
+			<div class="order-info">
+				<span>Вариант обивки</span>
+				«Граф» искусственная замша
+			</div>
+			<div class="order-form">
+				<h3>Укажите ваши контактные данные</h3>
+				<div class="order-form__row">
+					<input type="text" class="input" placeholder="Ваше имя">
+				</div>
+				<div class="order-form__row">
+					<input type="text" class="input" placeholder="pochta@mail.ru">
+				</div>
+				<div class="order-form__row">
+					<input type="text" class="input" placeholder="+ 7 (999) 999-99-99">
+				</div>
+				<div class="order-form__btn">
+					<button class="button button-border">Отправить</button>
+				</div>
+			</div>
+			<div class="order-cancel">
+				<a href="#" data-fancybox-close>Отменить заказ</a>
+			</div>
+		</div>
+	</div>
+
+
 	<script src="js/jquery-3.4.1.min.js"></script>
 	<script src="js/swiper-bundle.min.js"></script>
 	<script src="js/jquery.formstyler.js"></script>
+	<script src="js/jquery.fancybox.min.js"></script>
 	<script src="js/script.js"></script>
 
 </body>
